@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andro"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Porneste_aplicatie"
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="96dp"
+        android:layout_marginStart="11dp"
+        android:text="Porneste aplicatia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textColorLink="@color/colorPrimary" />
+
+
+</RelativeLayout>
